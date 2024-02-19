@@ -1,4 +1,5 @@
-import numeros_especiales
+from src.numero_especiales import calcular_suma_impares_no_multiplos_de_3,calcular_suma_pares_no_multiplos_de_3
+import pytest
 
 def test_calcular_suma_pares_no_multiplos_de_3():
     assert numeros_especiales.calcular_suma_pares_no_multiplos_de_3(10, 20) == 72
